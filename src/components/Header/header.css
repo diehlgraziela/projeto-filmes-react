@@ -1,0 +1,23 @@
+header {
+    background: #f34242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: #f3d9d9;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
